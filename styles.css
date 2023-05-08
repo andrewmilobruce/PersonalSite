@@ -1,11 +1,35 @@
+/**
+ * Name: styles.css
+ * Purpose: Define styles for my Personal Site
+ * Author: Andrew Milo Bruce
+ * Date: May 8th, 2023 (last modified)
+ * Version: 1.0.1
+ * Dependencies: None
+ * 
+ * Description: This file defines the styles for the personal website, including the smooth scroll behavior, background color,
+ * navbar position, profile picture margin, title and sub-title font family and color, about section margin, font family,
+ * font size, and color, as well as the styles for the footer section.
+ * 
+ * Usage: This file is used to style the HTML elements in my Personal Site.
+ * 
+ * Modifications: 
+ *  - May 8th, 2023 - cleaned up code and added meaningful inline comments, header...
+ * 
+ * Notes: None
+ */
+
+
+/* Set smooth scroll behavior for the HTML element */
 html {
     scroll-behavior: smooth;
 }
 
+/* Set background color for the body element */
 body {
     background-color: #fafafa;
 }
 
+/* Set fixed position, top position, and z-index for the navbar element */
 .navbar {
     position: fixed;
     top: 0;
@@ -13,6 +37,7 @@ body {
     width: 100%;
 }
 
+/* Set margin top, width, and height for the profile picture element */
 .profile-picture {
     /* border-radius: 50%; */
     margin-top: 38%;
@@ -20,21 +45,22 @@ body {
     height: auto;
 }
 
+/* Set margin top, font family, font size, and color for the title element */
 .title {
     margin-top: 50%;
     font-family: 'EB Garamond', serif;
     font-size: 50px;
     color: black;
-
 }
 
+/* Set font size, font family, and color for the sub-title element */
 .sub-title {
     font-size: 25px;
     font-family: 'EB Garamond', serif;
     color: black;
-
 }
 
+/* Set margin top, text align, font family, font size, and color for the about element */
 .about {
     margin-top: 20%;
     text-align: center;
@@ -43,43 +69,50 @@ body {
     color: black;
 }
 
+/* Set font size and color for the h3 elements within the about element */
 .about h3 {
     font-size: 25px;
     color: black;
 }
 
+/* Set margin top, margin bottom, and width for the img element within the about element */
 .about img {
     margin-top: 5%;
     margin-bottom: 10%;
     width: 75%;
 }
 
+/* Set text align, font family, background color, and padding bottom for the footer element */
 .footer {
-
     text-align: center;
     font-family: 'EB Garamond', serif;
     background-color: #4b4b4b;
     padding-bottom: 30%;
 }
 
+/* Set margin top, color, and font size for the h1 element within the footer element */
 .footer h1 {
     margin-top: 10%;
     color: white;
     font-size: 35px;
 }
 
+/* Set text decoration for the anchor elements within the footer element */
 .footer a {
     text-decoration: none;
 }
 
+/* Set hover color for the anchor elements within the footer element */
 .footer a:hover {
     color: #ffcf31 !important;
 }
 
+/* Set color for the github and linkedin icons within the footer element */
 .fa-github, .fa-linkedin {
     color: white !important;
 }
 
+/* Set margin top, color, and font size for the h3 element within the footer element */
 .footer h3 {
     margin-top: 2%;
     color: white;
